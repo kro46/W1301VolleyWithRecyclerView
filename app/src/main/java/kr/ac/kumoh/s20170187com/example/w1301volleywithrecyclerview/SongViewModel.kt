@@ -32,7 +32,7 @@ class SongViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun requestSong() {
-        val url = "https://expresssongdb-inhbm.run.goorm.io/song"
+        val url = "https://expresssongdb-jrezb.run.goorm.io/song"
 
         val request = JsonArrayRequest(
             Request.Method.GET,
